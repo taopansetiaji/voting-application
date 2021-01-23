@@ -89,6 +89,4 @@ const login = async (req, res) => {
   }
 };
 
-const deleteUser = async (req, res) => {};
-
 module.exports = { getUsers, register, login };
